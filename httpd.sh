@@ -1,8 +1,8 @@
 #!/bin/bash
 #install and configure httpd webserver
-sudo apt install apache2 -y
-sudo systemctl start apache2
-sudo systemctl enable apache2
+sudo dnf  install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
 
 #host simple web page
 
