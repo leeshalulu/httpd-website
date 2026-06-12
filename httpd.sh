@@ -6,4 +6,4 @@ sudo systemctl enable apache2
 
 #host simple web page
 
-echo "welcome to synnefo"| sudo tee /var/www/html/index.html
+echo "welcome"| sudo tee /var/www/html/index.html
